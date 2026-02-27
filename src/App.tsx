@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Settings, Gamepad2, Coffee, Quote, Maximize, Trophy, RefreshCw } from 'lucide-react';
 import { useMoyuData, formatTime } from './hooks/useMoyuData';
 import { getRandomQuote } from './data/quotes';
